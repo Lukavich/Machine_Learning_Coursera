@@ -55,20 +55,8 @@ my_features = ['bedrooms', 'bathrooms', 'sqft_living', 'sqft_lot', 'floors', 'zi
 Now, going back to the original dataset, you will build a model using the following features:
 
 advanced_features = 
-[
-'bedrooms', 'bathrooms', 'sqft_living', 'sqft_lot', 'floors', 'zipcode',
-'condition', # condition of house				
-'grade', # measure of quality of construction				
-'waterfront', # waterfront property				
-'view', # type of view				
-'sqft_above', # square feet above ground				
-'sqft_basement', # square feet in basement				
-'yr_built', # the year built				
-'yr_renovated', # the year renovated				
-'lat', 'long', # the lat-long of the parcel				
-'sqft_living15', # average sq.ft. of 15 nearest neighbors 				
-'sqft_lot15', # average lot size of 15 nearest neighbors 
-]
+['bedrooms', 'bathrooms', 'sqft_living', 'sqft_lot', 'floors', 'zipcode','condition’,’grade','waterfront','view','sqft_above','sqft_basement','yr_built’, ‘yr_renovated','lat', 'long',	'sqft_living15','sqft_lot15']
+
 Note that using copy and paste from this webpage to the IPython Notebook sometimes does not work perfectly in some operating systems, especially on Windows. For example, the quotes defining strings may not paste correctly. Please check carefully is you use copy & paste.
 
 Compute the RMSE (root mean squared error) on the test_data for the model using just my_features, and for the one using advanced_features.
