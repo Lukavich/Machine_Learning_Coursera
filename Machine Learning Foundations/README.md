@@ -1,9 +1,6 @@
 # Machine_Learning_Coursera
 Coursera machine learning specialization coursework (python based, University of Washington). 
-# DSE210_Probability_Statistics_Python
-Not done! In progress class. Looks best on google chrome. 
-Probability and Statistics Using Python: Data Science Masters Course (DSE 210).
-Most of the early portions of the class are worksheet based, but the later portions are mostly in ipython notebook (numpy, sklearn, pandas).
+1st class in certificate sequence.
 
 ## IPython Notebooks for Assignments (From Newest to Oldest) 
 
